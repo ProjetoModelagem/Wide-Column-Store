@@ -91,36 +91,35 @@ Este projeto realiza a migração de dados de um banco de dados PostgreSQL para 
        // ...
      ],
      "tcc_grupo": null
-   }
-  ```
+  }
+     ```
 
-2. **professores**
-   ```json
-  {
-    "_id": "475098a1-cac1-4601-9098-a1cac1b6018c",
-    "id": "6",
-    "nome": "Noah Vasconcelos",
-    "email": "julia96@example.net",
-    "data_nascimento": "1977-10-30",
-    "data_contratacao": "2024-10-08",
-    "disciplinas_ministradas": [
-      {
-        "disciplina_id": 6,
-        "nome_disciplina": "Paramédico",
-        "semestre": 6,
-        "ano": 2021
-      }
-      // ...
-    ],
-    "departamento": {
-      "departamento_id": 1,
-      "nome": "Matemática e Estatística",
-      "chefe": false
-    }
+  2. **professores**
+  ```json
+     {
+       "_id": "475098a1-cac1-4601-9098-a1cac1b6018c",
+       "id": "6",
+       "nome": "Noah Vasconcelos",
+       "email": "julia96@example.net",
+       "data_nascimento": "1977-10-30",
+       "data_contratacao": "2024-10-08",
+       "disciplinas_ministradas": [
+         {
+           "disciplina_id": 6,
+           "nome_disciplina": "Paramédico",
+           "semestre": 6,
+           "ano": 2021
+         }
+         // ...
+       ],
+       "departamento": {
+         "departamento_id": 1,
+         "nome": "Matemática e Estatística",
+         "chefe": false
+       }
   }
 
   ```
-
    3. **grupos_tcc**
    ```json
   {
@@ -150,7 +149,7 @@ Este projeto realiza a migração de dados de um banco de dados PostgreSQL para 
 
   ```
 
-   1. **cursos**
+   6. **cursos**
    ```json
   {
     "_id": "8abb1d0a-4557-4e1f-bb1d-0a45571e1f93",
@@ -158,4 +157,4 @@ Este projeto realiza a migração de dados de um banco de dados PostgreSQL para 
     "nome": "Programador"
   }
 
-  ```
+```
